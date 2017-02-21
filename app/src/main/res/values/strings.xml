@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EntityExam</string>
+    <string name="title_entity_detail">entity Detail</string>
+    <string name="title_activity_add_entity">AddEntity</string>
+</resources>

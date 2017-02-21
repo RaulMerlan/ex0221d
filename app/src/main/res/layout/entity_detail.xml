@@ -1,0 +1,55 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/field1_detail"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="15dp"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:title="Title"/>
+
+    <TextView
+        android:id="@+id/field2_detail"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="15dp"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:title="Title"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/field3_detail"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:layout_marginBottom="15dp"-->
+        <!--android:textSize="25dp"-->
+        <!--android:textAlignment="center"-->
+        <!--android:title="Title"/>-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/field1_detail"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="15dp"-->
+        <!--android:hint="Name"/>-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/field2_detail"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="15dp"-->
+        <!--android:hint="Group"/>-->
+
+    <EditText
+        android:id="@+id/field3_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:hint="Presences"/>
+
+</LinearLayout>
